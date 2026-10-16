@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATOON | ویلاهای خاص در دل طبیعت</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+</head>
+
+<body>
+
+
+
+    <div class="hero-shell">
+
+        <header class="site-header">
+
+            <a href="#" class="brand">
+                <span class="brand-name">ATOON</span>
+                <span class="brand-subtitle">VILLAS · NATURE · SERENITY</span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="#">خانه</a>
+                <a href="#villas">مجموعه ویلاها</a>
+                <a href="./about.html">درباره مجموعه</a>
+                <a href="contact.html">تماس با ما</a>
+
+                <button type="button" class="search-toggle" id="search-toggle" aria-expanded="false"
+                    aria-controls="villa-search-panel">
+                    <span class="search-icon">⌕</span>
+                    <span>جست‌وجوی ویلا</span>
+                </button>
+
+            </nav>
+
+        </header>
+
+    </div>
+
+
+    <div class="villa-search-panel" id="villa-search-panel" hidden>
+        <div class="search-panel-heading">
+            <div>
+                <span class="search-kicker">FIND YOUR PLACE</span>
+                <h3>ویلای ایده‌آل شما، از اینجا شروع می‌شود.</h3>
+            </div>
+            <button type="button" class="search-close" id="search-close" aria-label="بستن جست‌وجو">×</button>
+        </div>
+
+        <form class="search-form" id="villa-search-form">
+
+            <div class="search-field">
+                <span class="field-label">مقصد</span>
+                <input type="hidden" name="location" value="">
+
+                <div class="custom-select">
+                    <button type="button" class="select-trigger" aria-expanded="false">
+                        <span class="selected-value">همه مناطق</span>
+                        <span class="select-arrow">⌄</span>
+                    </button>
+                    <div class="select-options" hidden>
+                        <button type="button" class="select-option selected" data-value="">همه مناطق</button>
+                        <button type="button" class="select-option" data-value="نوشهر">نوشهر</button>
+                        <button type="button" class="select-option" data-value="رویان">رویان</button>
+                        <button type="button" class="select-option" data-value="کلاردشت">کلاردشت</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-field">
+                <span class="field-label">نوع ویلا</span>
+                <input type="hidden" name="type" value="">
+
+                <div class="custom-select">
+                    <button type="button" class="select-trigger" aria-expanded="false">
+                        <span class="selected-value">همه ویلاها</span>
+                        <span class="select-arrow">⌄</span>
+                    </button>
+                    <div class="select-options" hidden>
+                        <button type="button" class="select-option selected" data-value="">همه ویلاها</button>
+                        <button type="button" class="select-option" data-value="forest">ویلای جنگلی</button>
+                        <button type="button" class="select-option" data-value="modern">ویلای مدرن</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-field">
+                <span class="field-label">تعداد خواب</span>
+                <input type="hidden" name="rooms" value="">
+
+                <div class="custom-select">
+                    <button type="button" class="select-trigger" aria-expanded="false">
+                        <span class="selected-value">مهم نیست</span>
+                        <span class="select-arrow">⌄</span>
+                    </button>
+                    <div class="select-options" hidden>
+                        <button type="button" class="select-option selected" data-value="">مهم نیست</button>
+                        <button type="button" class="select-option" data-value="2">۲ خواب</button>
+                        <button type="button" class="select-option" data-value="3">۳ خواب</button>
+                        <button type="button" class="select-option" data-value="4">۴ خواب و بیشتر</button>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="search-submit">
+                جست‌وجو <span>↙</span>
+            </button>
+
+        </form>
+    </div>
+
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                ATOON PRIVATE COLLECTION
+            </span>
+
+            <h2>
+                جایی میان
+                <span>آرامش و رویا</span>
+            </h2>
+
+            <p>
+                برای آن‌هایی که زندگی را جور دیگری انتخاب می‌کنند
+                مجموعه‌ای از ویلاهای خاص، در آغوش طبیعت
+            </p>
+
+            <a href="#villas" class="hero-button">
+                <span>مجموعه ویلاها</span>
+                <span>↙</span>
+            </a>
+
+        </div>
+
+        <div class="hero-caption">
+            <span>THE ART OF SERENITY</span>
+            <span>زندگی، نزدیک‌تر به طبیعت</span>
+        </div>
+
+        <div class="hero-index">A / 01</div>
+
+    </main>
+
+    </div>
+
+
+    <section id="villas">
+        <div class="section-heading">
+            <span class="section-eyebrow">A CURATED COLLECTION</span>
+            <h2>ویلاهایی فراتر از یک اقامت</h2>
+            <p>
+                هر خانه، روایتی از معماری، طبیعت و آرامش؛
+                برای تجربه‌ای متفاوت از زندگی.
+            </p>
+        </div>
+
+
+        <div class="villa-grid">
+
+            <!-- VILLA 01 -->
+            <article class="villa-card">
+                <a href="villa-mahtab.html" class="villa-image">
+                    <img src="images/vila1.jpg" alt="ویلای مهتاب در نوشهر">
+
+                    <span class="villa-number">01</span>
+                    <span class="villa-number-label">ATOON RESIDENCES</span>
+                </a>
+
+                <div class="villa-info">
+                    <div class="villa-topline">
+                        <span class="villa-location">مازندران / نوشهر</span>
+                    </div>
+
+                    <h3>ویلای مهتاب</h3>
+                    <p>معماری مدرن، در آغوش سبز جنگل؛ روایتی از آرامش و خلوت.</p>
+
+                    <div class="villa-details">
+                        <span><b>3</b> اتاق خواب</span>
+                        <span><b>280</b> متر بنا</span>
+                    </div>
+
+                    <a href="villa-mahtab.html" class="villa-link">
+                        <span>کشف این اقامتگاه</span>
+                        <span class="villa-link-icon" aria-hidden="true">↙</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- VILLA 02 — FEATURED -->
+            <article class="villa-card villa-card-featured">
+                <a href="villa-sepidar.html" class="villa-image">
+                    <img src="images/vila2.jpg" alt="ویلای سپیدار با طراحی داخلی لوکس">
+
+                    <span class="villa-number">02</span>
+                    <span class="villa-number-label">SIGNATURE COLLECTION</span>
+                </a>
+
+                <div class="villa-info">
+                    <div class="villa-topline">
+                        <span class="villa-location">مازندران / رویان</span>
+                    </div>
+
+                    <h3>ویلای سپیدار</h3>
+                    <p>هماهنگی نور، چوب و خطوط معماری در فضایی برای زندگی متفاوت.</p>
+
+                    <div class="villa-details">
+                        <span><b>4</b> اتاق خواب</span>
+                        <span><b>350</b> متر بنا</span>
+                    </div>
+
+                    <a href="villa-sepidar.html" class="villa-link">
+                        <span>کشف این اقامتگاه</span>
+                        <span class="villa-link-icon" aria-hidden="true">↙</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- VILLA 03 -->
+            <article class="villa-card">
+                <a href="villa-jangalneshin.html" class="villa-image">
+                    <img src="images/vila3.jpg" alt="ویلای جنگل‌نشین در کلاردشت">
+
+                    <span class="villa-number">03</span>
+                    <span class="villa-number-label">NATURE COLLECTION</span>
+
+                </a>
+
+                <div class="villa-info">
+                    <div class="villa-topline">
+                        <span class="villa-location">مازندران / کلاردشت</span>
+                    </div>
+
+                    <h3>ویلای جنگل‌نشین</h3>
+                    <p>تجربه‌ی زندگی در مرز میان سکوت، طبیعت و معماری معاصر.</p>
+
+                    <div class="villa-details">
+                        <span><b>3</b> اتاق خواب</span>
+                        <span><b>240</b> متر بنا</span>
+                    </div>
+
+                    <a href="villa-jangalneshin.html" class="villa-link">
+                        <span>کشف این اقامتگاه</span>
+                        <span class="villa-link-icon" aria-hidden="true">↙</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="villa-more">
+            <span class="villa-more-caption">THE ATOON COLLECTION</span>
+            <a href="villas.html" class="villa-more-link">
+                <span>مشاهده تمام ویلاها</span>
+                <span aria-hidden="true">↙</span>
+            </a>
+        </div>
+
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-main">
+
+            <div class="footer-cta">
+                <span>YOUR NEXT CHAPTER</span>
+                <p>داستان خانه بعدی‌تان را با ما شروع کنید</p>
+                <a href="#contact">با ما در ارتباط باشید ↙</a>
+            </div>
+
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">ATOON</a>
+                <span class="footer-subtitle">VILLAS · NATURE · SERENITY</span>
+
+                <p>
+                    انتخابی متفاوت برای زندگی،
+                    در هماهنگی با طبیعت
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 ATOON — تمام حقوق محفوظ است</span>
+            <a href="#">بازگشت به بالا ↑</a>
+        </div>
+    </footer>
+
+
+    <script>
+        const toggle = document.querySelector('#search-toggle');
+        const panel = document.querySelector('#villa-search-panel');
+        const closeButton = document.querySelector('#search-close');
+
+        function closeSearchPanel() {
+            panel.hidden = true;
+            toggle.setAttribute('aria-expanded', 'false');
+            closeDropdowns();
+        }
+
+        toggle.addEventListener('click', function () {
+            const opening = panel.hidden;
+            panel.hidden = !opening;
+            toggle.setAttribute('aria-expanded', String(opening));
+        });
+
+        closeButton.addEventListener('click', closeSearchPanel);
+
+        function closeDropdowns() {
+            document.querySelectorAll('.custom-select').forEach(function (select) {
+                select.classList.remove('is-open');
+                select.querySelector('.select-options').hidden = true;
+                select.querySelector('.select-trigger')
+                    .setAttribute('aria-expanded', 'false');
+            });
+        }
+
+        document.querySelectorAll('.custom-select').forEach(function (select) {
+            const trigger = select.querySelector('.select-trigger');
+            const options = select.querySelector('.select-options');
+            const selectedText = select.querySelector('.selected-value');
+            const hiddenInput = select.closest('.search-field')
+                .querySelector('input[type="hidden"]');
+
+            trigger.setAttribute('aria-haspopup', 'true');
+
+            trigger.addEventListener('click', function () {
+                const opening = options.hidden;
+                closeDropdowns();
+
+                if (opening) {
+                    options.hidden = false;
+                    select.classList.add('is-open');
+                    trigger.setAttribute('aria-expanded', 'true');
+                }
+            });
+
+            options.querySelectorAll('.select-option').forEach(function (option) {
+                option.addEventListener('click', function () {
+                    selectedText.textContent = option.textContent.trim();
+                    hiddenInput.value = option.dataset.value;
+
+                    options.querySelectorAll('.select-option').forEach(function (item) {
+                        item.classList.remove('selected');
+                    });
+
+                    option.classList.add('selected');
+                    closeDropdowns();
+                    trigger.focus();
+                });
+            });
+        });
+
+        document.addEventListener('click', function (event) {
+            if (!event.target.closest('.custom-select')) {
+                closeDropdowns();
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'SERENITY') {
+                closeSearchPanel();
+            }
+        });
+
+        panel.addEventListener('click', function (event) {
+            event.stopPropagation();
+        });
+    </script>
+
+
+</body>
+
+</html>
